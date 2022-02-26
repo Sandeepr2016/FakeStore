@@ -35,3 +35,13 @@ export const fetchProducts = () => {
         })
     }
 }
+
+
+// <<<<<<<<<< Add to Cart - action >>>>>>>>>>>>
+
+export const addtoCart = (cartItem)=>{
+    return {
+        type : ActionTypes.ADD_TO_CART,
+        payload : cartItem
+    }
+}
